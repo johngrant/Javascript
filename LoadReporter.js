@@ -29,7 +29,6 @@
     ptA= ptA.sort(function(a, b){
         return a[1]-b[1];
     });
-//    if(report=== 1) return ptA;
     L= ptA.length-1;
     ptA= ptA.map(function(itm, i){
         if(i> 0 && ptA[i-1][2]!== itm[2]) itm[0]= '//\n'+itm[0];
